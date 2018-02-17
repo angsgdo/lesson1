@@ -4,4 +4,4 @@ def get_answer(question):
     if question in answers:
         return answers[question]
 
-print(get_answer(input('Напишите что-нибудь').lower))
+print(get_answer(input('Напишите что-нибудь').lower()))
